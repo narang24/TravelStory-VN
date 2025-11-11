@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import React from 'react'
 
 import Login from './pages/Auth/Login'
-import SignUp from './pages/auth/SignUp'
+import SignUp from './pages/Auth/SignUp'
 import Home from './pages/Home/Home'
 
 const App = () => {
