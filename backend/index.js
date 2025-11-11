@@ -16,7 +16,7 @@ const User=require("./models/user.model")
 const TravelStory = require("./models/travelStory.model")
 const travelStoryModel = require('./models/travelStory.model')
 
-mongoose.connect(config.connectionString)
+mongoose.connect(process.env.MONGO_URI);
 
 const app= express();
 app.use(express.json())
