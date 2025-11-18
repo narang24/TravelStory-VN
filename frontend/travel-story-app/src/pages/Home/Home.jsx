@@ -195,7 +195,7 @@ const Home = () => {
      handleClearSearch={handleClearSearch}
      />
 
-     <div className='container mx-auto py-10'>
+     <div className='container mx-auto py-10 px-7'>
       
       <FilterInfoTitle
         filterType={filterType}

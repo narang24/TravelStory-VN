@@ -26,7 +26,7 @@ const Root = () => {
   const isAuthenticated = !!localStorage.getItem("token")
 
   //Redirect to dashboard if authenticated,otherwise to login
-  return isAuthenticated ? (<Navigate to='/dashboard'/>) : (<Navigate to='/dashboard'/>)
+  return isAuthenticated ? (<Navigate to='/dashboard'/>) : (<Navigate to='/login'/>)
 }
 
 export default App

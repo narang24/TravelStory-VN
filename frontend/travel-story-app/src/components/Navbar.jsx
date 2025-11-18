@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LOGO from '../assets/images/logo.svg'
+import LOGO from '../../public/logo.png'
 import { useNavigate } from 'react-router-dom'
 import ProfileInfo from './cards/ProfileInfo'
 import SearchBar from './input/SearchBar'
@@ -27,7 +27,10 @@ const Navbar = ({userInfo, searchQuery, setSearchQuery, handleSearch, handleClea
 
     return (
         <div className='bg-white flex items-center justify-between px-6 py-2 drop-shadow sticky top-0 z-10'>
+            <div className='flex gap-2 justify-center items-center'>
             <img src={LOGO} alt='travel story' className='h-9'/>
+            <p>Nostalgia</p>
+            </div>
         
             {isToken && 
             (<>
